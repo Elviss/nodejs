@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Ola Mundo\nMeu Primeiro Script');
-})
+});
 
 server.listen(port, host, () => {
     console.log(`Server running at http://${host}:${port}`)
