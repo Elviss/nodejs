@@ -1,15 +1,35 @@
 {
   "name": "curso-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "fs",
+    "path",
+    "url",
+    "mongodb",
+    "udp",
+    "crypto"
+  ],
+  "author": "Elvis Silva",
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elviss/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Elviss/nodejs/issues"
+  },
+  "homepage": "https://github.com/Elviss/nodejs#readme",
+  "description": ""
 }
